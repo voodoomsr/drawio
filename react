@@ -1,1 +1,19 @@
-<mxfile host="www.draw.io" modified="2020-01-14T23:55:06.391Z" agent="Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/79.0.3945.73 Mobile/15E148 Safari/604.1" version="12.5.3" etag="8EiF8or-ISgkMes8yaNC" type="github"><diagram id="U6onsohCDM8xAf3Gy72e">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-15T00:01:31.410Z" agent="Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/79.0.3945.73 Mobile/15E148 Safari/604.1" etag="Tx3WFdTf8r5drGFia_Mt" version="12.5.3" type="github">
+  <diagram id="U6onsohCDM8xAf3Gy72e" name="Page-1">
+    <mxGraphModel dx="797" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="1jb3-aHbYqdmqH8BCFGS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1jb3-aHbYqdmqH8BCFGS-1" target="1jb3-aHbYqdmqH8BCFGS-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="1jb3-aHbYqdmqH8BCFGS-1" value="what &amp;nbsp;is create-react-app" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="130" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="1jb3-aHbYqdmqH8BCFGS-3" value="script that creates an app with predefined config" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="130" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
