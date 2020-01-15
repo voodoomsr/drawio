@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-15T16:15:57.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="QMbWrmPZVVyJG4jXGFKo" version="12.5.4" type="github">
+<mxfile host="www.draw.io" modified="2020-01-15T17:06:18.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="d_qOGa7YXOp86ms9HeIA" version="12.5.4" type="github">
   <diagram id="U6onsohCDM8xAf3Gy72e" name="Page-1">
-    <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -51,11 +51,25 @@
         <mxCell id="PwkDE9e_u0gJDy0wK7ap-13" value="What are those scripts?" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="560" width="170" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="PwkDE9e_u0gJDy0wK7ap-17" value="eject" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-17" target="PwkDE9e_u0gJDy0wK7ap-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-17" value="eject" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="740" width="60" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="PwkDE9e_u0gJDy0wK7ap-15" value="start" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-15" target="PwkDE9e_u0gJDy0wK7ap-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-15" value="start" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="740" width="50" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="960" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-27" value="what does it do?" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="850" width="360" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="1jb3-aHbYqdmqH8BCFGS-3" value="script that creates an app with predefined config" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="300" width="130" height="80" as="geometry"/>
@@ -78,14 +92,64 @@
         <mxCell id="PwkDE9e_u0gJDy0wK7ap-9" value="defines what to execute. When the package is installed what is defined there, will be added to the execution path" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="640" y="295" width="140" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="PwkDE9e_u0gJDy0wK7ap-20" value="build" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-20" target="PwkDE9e_u0gJDy0wK7ap-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-20" value="build" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="395" y="740" width="60" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="PwkDE9e_u0gJDy0wK7ap-23" value="init" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-23" target="PwkDE9e_u0gJDy0wK7ap-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-23" value="init" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="740" width="60" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="PwkDE9e_u0gJDy0wK7ap-24" value="test" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-24" target="PwkDE9e_u0gJDy0wK7ap-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-24" value="test" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="740" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-34" target="PwkDE9e_u0gJDy0wK7ap-35">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-34" value="start:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;set environment to development&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;set port to be used&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;start webpack development server&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;import a group of dev-utils:&lt;br&gt;chalk: ponerle color&lt;br&gt;clear console&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="960" width="220" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-35" target="PwkDE9e_u0gJDy0wK7ap-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-35" value="What is Webpack?" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1210" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-37" target="PwkDE9e_u0gJDy0wK7ap-39">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-37" target="PwkDE9e_u0gJDy0wK7ap-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-37" value="static module bundler" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1310" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-39" target="PwkDE9e_u0gJDy0wK7ap-45">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-39" value="what?" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1380" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-45" value="a tool to generate a single piece of code that represent an entire app" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1440" width="80" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="PwkDE9e_u0gJDy0wK7ap-42" target="PwkDE9e_u0gJDy0wK7ap-43">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-42" value="how?" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1380" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="PwkDE9e_u0gJDy0wK7ap-43" value="it start from the entrypoiint creating a dependency graph and builds a bundle with all of them" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="1480" width="150" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
