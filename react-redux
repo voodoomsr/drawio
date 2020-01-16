@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T22:47:56.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="8xtm-r7iKYPISWeaNYTS" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-16T23:27:01.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="uKBC_LyTsNOQJKc8Q5sJ" version="12.5.5" type="github">
   <diagram id="GNKpamXSOyIpEhXjSYx_" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="INuW1D9MYVWz0a5xCElX-2" value="a module that expose the component &#39;Provider&#39; that provides a &#39;store&#39; to the rest of the App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="180" y="230" width="160" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="INuW1D9MYVWz0a5xCElX-4" value="what is an action creator?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="INuW1D9MYVWz0a5xCElX-4" value="what is an&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="540" y="100" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="INuW1D9MYVWz0a5xCElX-5" value="what is a dispatch?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -81,6 +81,63 @@
         </mxCell>
         <mxCell id="INuW1D9MYVWz0a5xCElX-23" value="their invokation is used as argument for store.dispatch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="675" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-30" target="INuW1D9MYVWz0a5xCElX-33">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-30" target="INuW1D9MYVWz0a5xCElX-31">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-30" value="what is a &lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;reducer&lt;/font&gt;&lt;/b&gt;?" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-31" value="its a function that takes a current state and an action to generate a new state" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="922" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-33" target="INuW1D9MYVWz0a5xCElX-34">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-33" value="defines &#39;how&#39; the application state will change according with the action received by the store" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="350" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-34" target="INuW1D9MYVWz0a5xCElX-35">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-34" target="INuW1D9MYVWz0a5xCElX-41">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-34" value="what is the store? " style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="350" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-41" target="INuW1D9MYVWz0a5xCElX-43">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-41" value="how is its created?" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="350" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-43" target="INuW1D9MYVWz0a5xCElX-45">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-43" value="using a single reducer" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="350" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-45" value="how complex can it be for an entire app?" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="510" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-35" target="INuW1D9MYVWz0a5xCElX-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-35" value="its the object that holds the &lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;state/state tree&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="920" y="495" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-37" target="INuW1D9MYVWz0a5xCElX-39">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-37" value="what is the &lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;state tree&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="495" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-39" value="composition of reducers, example a key value pair were each key is the result of a redu" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="695" width="140" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
