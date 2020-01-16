@@ -1,1 +1,19 @@
-<mxfile host="www.draw.io" modified="2020-01-16T21:24:01.782Z" agent="Mozilla/5.0 (Linux; Android 9; SM-N9600) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36" version="12.5.5" etag="gtGxFvm1be9XfmNATDfc" type="github"><diagram id="s_v21d3WUivprCSvJNXa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-16T21:32:03.500Z" agent="Mozilla/5.0 (Linux; Android 9; SM-N9600) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36" etag="DQGTnjLI39GZ9OeSvGrl" version="12.5.5" type="github">
+  <diagram id="s_v21d3WUivprCSvJNXa" name="Page-1">
+    <mxGraphModel dx="378" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="fLZPE0hy692rA_NMfZsP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fLZPE0hy692rA_NMfZsP-1" target="fLZPE0hy692rA_NMfZsP-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="fLZPE0hy692rA_NMfZsP-1" value="what is a reducer?" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="fLZPE0hy692rA_NMfZsP-2" value="defines &#39;how&#39; the application state will change according with the action received&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="140" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
