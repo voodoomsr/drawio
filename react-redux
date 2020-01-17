@@ -1,5 +1,5 @@
-<mxfile host="www.draw.io" modified="2020-01-17T08:20:10.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="78mphEslmvH4AHX47M5z" version="12.5.5" type="github">
-  <diagram id="GNKpamXSOyIpEhXjSYx_" name="Page-1">
+<mxfile host="www.draw.io" modified="2020-01-17T09:26:29.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="2oMBmrjPUlfh8OpKwQHB" version="12.5.5" type="github" pages="2">
+  <diagram id="GNKpamXSOyIpEhXjSYx_" name="redux">
     <mxGraphModel dx="2031" dy="2189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
@@ -241,14 +241,119 @@
         <mxCell id="INuW1D9MYVWz0a5xCElX-80" value="replaceReducer(nextReducer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="880" width="180" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-83" target="INuW1D9MYVWz0a5xCElX-85">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="INuW1D9MYVWz0a5xCElX-83" value="add a change listener that will be invoked every time an action is dispatchd. The state tree probably is modified" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1065" y="900" width="130" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="2e6DzgSPfedlx22kBpAB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-85" target="2e6DzgSPfedlx22kBpAB-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INuW1D9MYVWz0a5xCElX-85" value="how the react components connect ? there are complexities in the sense of granulary/efficiently invoke state changes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="1080" width="130" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="2e6DzgSPfedlx22kBpAB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="2e6DzgSPfedlx22kBpAB-1" target="2e6DzgSPfedlx22kBpAB-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <UserObject label="react-binding -&amp;gt; react-redux" link="data:page/id,DojOg53QnOqDP0sv0Fxv" id="2e6DzgSPfedlx22kBpAB-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="1065" y="1260" width="130" height="100" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <mxCell id="2e6DzgSPfedlx22kBpAB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="2e6DzgSPfedlx22kBpAB-3" target="2e6DzgSPfedlx22kBpAB-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="2e6DzgSPfedlx22kBpAB-3" value="its the only type of binding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="855" y="1260" width="130" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="2e6DzgSPfedlx22kBpAB-5" value="no, there are several framework supported like&amp;nbsp;&lt;span style=&quot;color: rgb(28 , 30 , 33) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;noto sans&amp;#34; , sans-serif , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; font-size: 15px&quot;&gt;Angular, Ember, jQuery, or vanilla JavaScript&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1260" width="130" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="INuW1D9MYVWz0a5xCElX-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="INuW1D9MYVWz0a5xCElX-72" target="INuW1D9MYVWz0a5xCElX-83">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1100.4285714285716" y="930" as="targetPoint"/>
             <mxPoint x="1100" y="825" as="sourcePoint"/>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DojOg53QnOqDP0sv0Fxv" name="react-redux">
+    <mxGraphModel dx="654" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="UzqVMUjLov8AagZU_RfG-0"/>
+        <mxCell id="UzqVMUjLov8AagZU_RfG-1" parent="UzqVMUjLov8AagZU_RfG-0"/>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-0" target="H1mwCQ90rYpEKA19GSGu-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-0" value="how it works?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="180" y="130" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-1" target="H1mwCQ90rYpEKA19GSGu-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-1" target="H1mwCQ90rYpEKA19GSGu-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-1" value="connects react component using the function connect" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="180" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-11" target="H1mwCQ90rYpEKA19GSGu-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-11" value="what type of components?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="380" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-13" target="H1mwCQ90rYpEKA19GSGu-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-13" value="container components" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="580" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-15" value="Purpose: How things work (data fetching, state updates)&lt;br&gt;Aware of Redux: Yes&lt;br&gt;To read data: Subcribe to Redux state&lt;br&gt;To change data: Dispatch Redux actions&lt;br&gt;Are written: usually generated with react-redux" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="450" y="410" width="250" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-3" target="H1mwCQ90rYpEKA19GSGu-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-3" value="what connect does?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="180" y="410" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-5" target="H1mwCQ90rYpEKA19GSGu-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-5" target="H1mwCQ90rYpEKA19GSGu-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-5" value="injects props and callbacks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-9" value="callbacks: functions that could use dispatch to send actions back to the store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="390" y="540" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-7" value="props: usually some data obtained by computing the state" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="180" y="690" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-17" target="H1mwCQ90rYpEKA19GSGu-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=diamond;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-17" target="H1mwCQ90rYpEKA19GSGu-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-17" value="react components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="580" y="110" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="UzqVMUjLov8AagZU_RfG-1" source="H1mwCQ90rYpEKA19GSGu-21" target="H1mwCQ90rYpEKA19GSGu-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-21" value="presentational components" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="775" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="H1mwCQ90rYpEKA19GSGu-23" value="Purpose: how things look (markup, styles)&lt;br&gt;Aware of Redux: No&lt;br&gt;To read data: read data from props&lt;br&gt;To change data: invoke callbacks from props&lt;br&gt;Are written: by hand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="UzqVMUjLov8AagZU_RfG-1">
+          <mxGeometry x="740" y="410" width="190" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
