@@ -1,1 +1,121 @@
-<mxfile host="www.draw.io" modified="2020-02-21T11:52:32.544Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" version="12.7.3" etag="6nJ0iYZaUXygWXK28Bnj" type="github"><diagram id="jTJVvFx8SDA8l2Y3lg-H">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-21T12:50:52.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="7CrEFDvJiRQ9hzvOhrWe" version="12.7.3" type="github">
+  <diagram id="jTJVvFx8SDA8l2Y3lg-H" name="Page-1">
+    <mxGraphModel dx="2035" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-2" value="Lane" style="swimlane;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="100" width="130" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-5" value="pensieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-6" value="pensieve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-8" value="story-metadata" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="360" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-9" value="pensieve" style="swimlane;html=1;startSize=20;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-8">
+          <mxGeometry y="20" width="120" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-16" value="creation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-9">
+          <mxGeometry x="20" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-10" value="emerald-kraken-p3" style="swimlane;html=1;startSize=20;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-8">
+          <mxGeometry x="120" y="20" width="120" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PpQpMfU5nrtK0oJMUs3x-10" source="PpQpMfU5nrtK0oJMUs3x-15" target="PpQpMfU5nrtK0oJMUs3x-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-15" value="p2 to p3 convertion" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-10">
+          <mxGeometry x="20" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-19" value="pensieve as a git sub module" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-10">
+          <mxGeometry x="20" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-17" value="pensieve utilization" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-10">
+          <mxGeometry x="20" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PpQpMfU5nrtK0oJMUs3x-10" source="PpQpMfU5nrtK0oJMUs3x-19" target="PpQpMfU5nrtK0oJMUs3x-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="350" as="targetPoint" />
+            <mxPoint x="60" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-12" value="kraken-worker" style="swimlane;html=1;startSize=20;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-8">
+          <mxGeometry x="240" y="20" width="120" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PpQpMfU5nrtK0oJMUs3x-12" source="PpQpMfU5nrtK0oJMUs3x-13" target="PpQpMfU5nrtK0oJMUs3x-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-13" value="update squish py3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-12">
+          <mxGeometry x="20" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-14" value="autoupdate mechanism with git" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-12">
+          <mxGeometry x="20" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PpQpMfU5nrtK0oJMUs3x-8" source="PpQpMfU5nrtK0oJMUs3x-16" target="PpQpMfU5nrtK0oJMUs3x-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.075;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PpQpMfU5nrtK0oJMUs3x-8" source="PpQpMfU5nrtK0oJMUs3x-15" target="PpQpMfU5nrtK0oJMUs3x-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpQpMfU5nrtK0oJMUs3x-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpQpMfU5nrtK0oJMUs3x-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-32" value="development" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="360" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-33" value="pensieve" style="swimlane;html=1;startSize=20;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-32">
+          <mxGeometry y="20" width="120" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-33">
+          <mxGeometry x="50" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-34" value="emerald-kraken-p3" style="swimlane;html=1;startSize=20;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-32">
+          <mxGeometry x="120" y="20" width="120" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-39" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-34">
+          <mxGeometry x="50" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-35" value="kraken-worker" style="swimlane;html=1;startSize=20;" vertex="1" parent="PpQpMfU5nrtK0oJMUs3x-32">
+          <mxGeometry x="240" y="20" width="120" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpQpMfU5nrtK0oJMUs3x-16" target="PpQpMfU5nrtK0oJMUs3x-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="targetPoint" />
+            <mxPoint x="401.40944715051364" y="240.52469623167804" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpQpMfU5nrtK0oJMUs3x-17" target="PpQpMfU5nrtK0oJMUs3x-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="550" as="targetPoint" />
+            <mxPoint x="520.575109807477" y="496.7585526044327" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-43" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PpQpMfU5nrtK0oJMUs3x-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpQpMfU5nrtK0oJMUs3x-14" target="PpQpMfU5nrtK0oJMUs3x-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="580" as="targetPoint" />
+            <mxPoint x="641.1942999941871" y="499.70142500145334" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
