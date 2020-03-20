@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-20T20:39:59.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="O0xWALL4XIGmOKeZGXkH" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-20T20:47:31.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="qgU35uSwtYxc4D4Xr5CS" version="12.8.8" type="github">
   <diagram id="VvEo_FEACkK7pgjarb93" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,14 +16,46 @@
         <mxCell id="zIb1Xo5-l_vAcHUf23yA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-4" target="zIb1Xo5-l_vAcHUf23yA-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-4" target="zIb1Xo5-l_vAcHUf23yA-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zIb1Xo5-l_vAcHUf23yA-4" value="operations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zIb1Xo5-l_vAcHUf23yA-6" value="&lt;b&gt;push&lt;/b&gt;: add item to the top&lt;br&gt;&lt;b&gt;pop&lt;/b&gt;: save reference of the top and remove it from structure&lt;br&gt;&lt;b&gt;top&lt;/b&gt;: get reference to the top of the stack&lt;br&gt;&lt;b&gt;size&lt;/b&gt;: get amount of items on the stack&lt;br&gt;&lt;b&gt;empty&lt;/b&gt;: returns true if the stack is empty otherwise false" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="105" y="350" width="330" height="130" as="geometry" />
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-6" value="&lt;b&gt;push&lt;/b&gt;: add item to the top&lt;br&gt;&lt;b&gt;pop&lt;/b&gt;: save reference of the &lt;b&gt;top &lt;/b&gt;and remove it from structure&lt;br&gt;&lt;b&gt;top/last&lt;/b&gt;: get reference to the top of the stack" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zIb1Xo5-l_vAcHUf23yA-2" value="LIFO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-8" target="zIb1Xo5-l_vAcHUf23yA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-8" target="zIb1Xo5-l_vAcHUf23yA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-8" value="Queue" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-11" target="zIb1Xo5-l_vAcHUf23yA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-11" target="zIb1Xo5-l_vAcHUf23yA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-11" value="operations" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-13" value="&lt;b&gt;enqueue&lt;/b&gt;: add item to the queue&lt;br&gt;&lt;b&gt;dequeue&lt;/b&gt;: save reference to the &lt;b&gt;bottom &lt;/b&gt;and remove it from the structure&lt;br&gt;&lt;b&gt;bottom/front/first&lt;/b&gt;: get reference to the bottom/front element&lt;br&gt;size: get amount of items on the structure" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="370" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-9" value="FIFO" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-15" value="&lt;b&gt;size&lt;/b&gt;: get amount of items on the stack&lt;br&gt;&lt;b&gt;empty&lt;/b&gt;: returns true if the stack is empty otherwise false" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
