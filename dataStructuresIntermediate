@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-03-20T20:26:16.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" version="12.8.8" etag="KaKRivrUIO10TmAWsP6C" type="github"><diagram id="VvEo_FEACkK7pgjarb93">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-03-20T20:39:59.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="O0xWALL4XIGmOKeZGXkH" version="12.8.8" type="github">
+  <diagram id="VvEo_FEACkK7pgjarb93" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-1" target="zIb1Xo5-l_vAcHUf23yA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-1" target="zIb1Xo5-l_vAcHUf23yA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-1" value="Stack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIb1Xo5-l_vAcHUf23yA-4" target="zIb1Xo5-l_vAcHUf23yA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-4" value="operations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-6" value="&lt;b&gt;push&lt;/b&gt;: add item to the top&lt;br&gt;&lt;b&gt;pop&lt;/b&gt;: save reference of the top and remove it from structure&lt;br&gt;&lt;b&gt;top&lt;/b&gt;: get reference to the top of the stack&lt;br&gt;&lt;b&gt;size&lt;/b&gt;: get amount of items on the stack&lt;br&gt;&lt;b&gt;empty&lt;/b&gt;: returns true if the stack is empty otherwise false" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="105" y="350" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zIb1Xo5-l_vAcHUf23yA-2" value="LIFO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
