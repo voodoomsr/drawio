@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T20:05:01.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="7tMHidZloyRrl-J0QZt6" version="12.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T20:06:25.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="8GI3rmCIOYU-IwjkJ2uq" version="12.9.2" type="github">
   <diagram id="nAMBKaJsmdQKxuhIFYIP" name="Page-1">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-5" value="FEATURES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-605" y="500" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-6" value="CI 2.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-6" value="CI 2.0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1660" y="270" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-8" value="CLOUD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -34,7 +34,7 @@
         <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-12" value="QA Metrix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="270" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-13" value="Build from source" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-13" value="Build from source" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1600" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-14" value="R&amp;amp;D Support (Development)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -97,7 +97,7 @@
         <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-33" value="Boost Build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1660" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-35" value="TCAD Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-35" value="TCAD Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1850" y="170" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ll7-O8cNEfSAIqoa-2ZT-37" value="Legacy Support" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
